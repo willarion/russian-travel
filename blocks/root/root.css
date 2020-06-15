@@ -1,0 +1,21 @@
+@font-face {
+  src: url(../../fonts/Inter-Regular.otf);
+  font-family: 'Inter';
+}
+
+@font-face {
+  src: url(../../fonts/Inter-Black.otf);
+  font-family: 'Inter';
+  font-weight: bold;
+}
+
+.root {
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  background-color: #2A2C2F;
+  color: #fff;
+}

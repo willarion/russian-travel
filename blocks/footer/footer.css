@@ -1,0 +1,31 @@
+@import url(./__link/footer__link.css);
+@import url(./__links/footer__links.css);
+@import url(./__copyright/footer__copyright.css);
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin-bottom: 24px;
+  padding: 0 48px;
+  width: 100%;
+}
+
+@media screen and (max-width: 880px){
+  .footer {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 710px){
+  .footer {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 590px){
+  .footer {
+    /*со значением padding-rigth 118px как в макете моё имя не влезает целиком на строчку*/
+    padding: 0 90px 0 16px;
+  }
+}
