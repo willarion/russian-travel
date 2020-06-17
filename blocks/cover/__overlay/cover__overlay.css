@@ -1,9 +1,17 @@
-.cover__overlay {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+  .cover__overlay {
+    margin: auto;
+    max-width: 60%;
+    /*position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+  }
+
+  @media screen and (max-width: 692px){
+    .cover__overlay {
+      width: 80%;
+    }
+  }
 
 @media screen and (max-width: 692px){
   .cover__overlay {

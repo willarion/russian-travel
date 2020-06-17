@@ -1,14 +1,3 @@
-@font-face {
-  src: url(../../fonts/Inter-Regular.otf);
-  font-family: 'Inter';
-}
-
-@font-face {
-  src: url(../../fonts/Inter-Black.otf);
-  font-family: 'Inter';
-  font-weight: bold;
-}
-
 .root {
   font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
   -moz-osx-font-smoothing: grayscale;
